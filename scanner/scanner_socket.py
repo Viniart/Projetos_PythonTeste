@@ -11,7 +11,7 @@ ip_alvo = gethostbyname(alvo)
 print("Começando scan: ", ip_alvo)
 
 # Threading
-for i in range(50, 500):
+for i in range(8070, 8090):
     # IPv4
     # TCP
     s = socket(AF_INET, SOCK_STREAM)
